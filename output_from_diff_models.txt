@@ -1,0 +1,13 @@
+MODEL OUTPUTS 
+
+1. Decison model
+    mean :  4.221238447162951
+    Standard devn :  0.7912268161736837
+
+2. Linear Regrsn Model
+    mean :  5.030437102767306
+    Standard devn :  1.0607661158294837
+
+3. RandomForestRegressor(better mean)🔥
+    mean :  3.322457823389395
+    Standard devn :  0.7091556813106568
