@@ -3,12 +3,10 @@ This project uses machine learning to predict house prices based on the Boston H
 It demonstrates a complete ML pipeline, including data preprocessing, feature engineering, model training, evaluation, and deployment using Python and Scikit-Learn.
 
 
-
 🏡 Real Estate Price Predictor – Project Workflow
 1️⃣ Data Exploration 🔍
 Used pandas and matplotlib for initial data exploration and visualization.
 
-Checked for null values and class imbalances, especially in the CHAS column.
 
 2️⃣ Train-Test Split ✂️
 Applied both a custom train-test split and StratifiedShuffleSplit to ensure proper class distribution of CHAS in both sets.
@@ -26,9 +24,7 @@ to capture interaction between taxation and average number of rooms.
 5️⃣ Data Preprocessing ⚙️
 Handled missing values using SimpleImputer (strategy: median).
 
-Scaled features with StandardScaler.
-
-Built a data pipeline using Pipeline for clean and efficient preprocessing.
+Scaled features with StandardScaler.Built a data pipeline using Pipeline for clean and efficient preprocessing.
 
 6️⃣ Model Training 🧠
 Tried multiple models:
@@ -40,21 +36,20 @@ Measured model performance using:
 📉 RMSE (Root Mean Squared Error)
 🔁 cross_val_score with 10-fold cross-validation
 
-Final Decision Tree Regressor RMSE (on test set):
-~4.24
 
 8️⃣ Model Deployment 🚀
 Model saved using joblib
 
 Successfully loaded and tested with a sample input using .predict() method ✅
 
-
-Made with ❤️ using Python and Scikit-Learn and utmost determination ! 🔥
-~ Akhila 👩‍💻
-
 🛠 Tech Stack
 Language: Python
 
 Libraries: pandas, numpy, matplotlib, scikit-learn, joblib
+
+Made with ❤️ using Python and Scikit-Learn and utmost determination ! 🔥
+~ Akhila 👩‍💻
+
+
 
 
