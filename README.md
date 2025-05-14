@@ -47,7 +47,7 @@ Language: Python
 
 Libraries: pandas, numpy, matplotlib, scikit-learn, joblib
 
-Made with ❤️ using Python and Scikit-Learn and utmost determination ! 🔥
+Made using Python and Scikit-Learn and utmost determination ! 🔥
 ~ Akhila 👩‍💻
 
 
